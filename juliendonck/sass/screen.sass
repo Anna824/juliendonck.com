@@ -1,4 +1,5 @@
 @import compass/reset
+@import "compass/css3/opacity"
 
 body
   font-family: "adelle","Helvetica", sans-serif
@@ -63,7 +64,35 @@ header
       color: #566070
       text-align: center
       font-weight: 100
-      p
+      a
+        color: #566070
+        text-decoration: none
+        &:hover
+          @include opacity(0.9)
+          text-decoration: underline
+
+      .caption
         font-size: 18px
         padding: 20px 0 5px 0
+        width: 560px
+        margin: 0 auto
+      &:last-child
+        padding-bottom: 60px
+      blockquote
+        padding: 10px 0 10px 20px
+        border-left: 8px solid #00A3CC
+        font-style: italic
+        width: 940px
+        text-align: left
+        p.quote
+          font-family: "Meta Serif Pro", "Georgia", serif
+          font-size: 24px
+          line-height: 34px
+          font-weight: 700
+          padding-bottom: 20px
+
+        span
+          font-family: "Meta Serif Pro", "Georgia", serif
+          font-size: 24px
+          font-weight: 500
 
