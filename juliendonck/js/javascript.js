@@ -6,13 +6,38 @@ $(document).ready(function() {
     return false;
   });
 
-  $('a.hover').hover(function() {
-    $('img.cross').attr("src","img/arrow@2x.png");
-    $('p.top').css('visibility', 'visible');
-  }, function() {
-      $('img.cross').attr("src","img/cross-36.png");
-      $('p.top').css('visibility', 'hidden');
+  var scroll_pos = 0;
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if(scroll_pos > 380) {
+
+      $('img.cross').attr("src","img/cross-dark@2x.png");
+      $('p.top').css('color','#00A3CC');
+      $('a.hover').hover(function() {
+        $('img.cross').attr("src","img/arrow-dark@2x.png");
+        $('p.top').css('visibility', 'visible');
+      }, function() {
+        $('img.cross').attr("src","img/cross-dark@2x.png");
+        $('p.top').css('visibility', 'hidden');
+      });
+
+    } else {
+
+      $('img.cross').attr("src","img/cross-light@2x.png");
+      $('p.top').css('color','#f9f9f9');
+      $('a.hover').hover(function() {
+        $('img.cross').attr("src","img/arrow-light@2x.png");
+        $('p.top').css('visibility', 'visible');
+      }, function() {
+        $('img.cross').attr("src","img/cross-light@2x.png");
+        $('p.top').css('visibility', 'hidden');
+      });
+
+    }
   });
+
+
+
 
   $('a.twitter').hover(function() {
     $("header").css('background-color', 'rgba(0,171,240,.95)');
@@ -53,7 +78,7 @@ $(document).ready(function() {
 var scroll_pos = 0;
 $(document).scroll(function() {
   scroll_pos = $(this).scrollTop();
-  if(scroll_pos > 210) {
+  if(scroll_pos > 450) {
     $("body").css('background-color', 'blue');
   } else {
     $("body").css('background-color', 'red');
