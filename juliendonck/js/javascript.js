@@ -13,8 +13,10 @@ $(document).ready(function() {
       $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       $('a.hover').hover(function() {
         $('p.top').css('visibility', 'visible');
+        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       }, function() {
         $('p.top').css('visibility', 'hidden');
+        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       });
 
     } else {
