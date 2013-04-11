@@ -41,8 +41,10 @@ $(document).ready(function() {
 
   $('a.twitter').hover(function() {
     $("header").css('background-color', 'rgba(0,171,240,.95)');
+    $(".twitter img").css({ opacity: 0.85 });
   }, function() {
     $("header").css('background-color', 'rgba(0,163,204,.95)');
+    $(".twitter img").css({ opacity: 1 });
   });
 
   $('a.vimeo').hover(function() {
