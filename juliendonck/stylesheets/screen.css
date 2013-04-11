@@ -286,19 +286,23 @@ header .header-content ul li:last-child {
   text-decoration: none;
 }
 /* line 164, ../sass/screen.sass */
+#container .posts article blockquote .source:hover {
+  text-decoration: underline;
+}
+/* line 166, ../sass/screen.sass */
 #container .posts article blockquote .source:before {
   content: "(";
 }
-/* line 166, ../sass/screen.sass */
+/* line 168, ../sass/screen.sass */
 #container .posts article blockquote .source:after {
   content: ")";
 }
 
-/* line 170, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 .photo-post .tag {
   color: #f0c330;
 }
-/* line 172, ../sass/screen.sass */
+/* line 174, ../sass/screen.sass */
 .photo-post .photo-cross {
   position: absolute;
   top: 10px;
@@ -306,7 +310,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 172, ../sass/screen.sass */
+  /* line 174, ../sass/screen.sass */
   .photo-post .photo-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -315,11 +319,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 183, ../sass/screen.sass */
+/* line 185, ../sass/screen.sass */
 .quote-post .tag {
   color: #31c3a6;
 }
-/* line 185, ../sass/screen.sass */
+/* line 187, ../sass/screen.sass */
 .quote-post .quote-cross {
   position: absolute;
   top: 10px;
@@ -327,7 +331,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 185, ../sass/screen.sass */
+  /* line 187, ../sass/screen.sass */
   .quote-post .quote-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -336,11 +340,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 196, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
 .work-post .tag {
   color: #ce7c7d;
 }
-/* line 198, ../sass/screen.sass */
+/* line 200, ../sass/screen.sass */
 .work-post .work-cross {
   position: absolute;
   top: 10px;
@@ -348,7 +352,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 198, ../sass/screen.sass */
+  /* line 200, ../sass/screen.sass */
   .work-post .work-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
     background-size: 18px 18px;
