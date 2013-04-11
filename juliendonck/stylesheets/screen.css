@@ -234,14 +234,6 @@ header .header-content ul li:last-child {
   position: relative;
 }
 /* line 126, ../sass/screen.sass */
-#container .posts article .meta .tag-cross {
-  position: absolute;
-  top: 9px;
-  left: 50%;
-  margin-left: -9px;
-  z-index: 30;
-}
-/* line 132, ../sass/screen.sass */
 #container .posts article .meta .tag {
   font-weight: 500;
   position: absolute;
@@ -249,7 +241,7 @@ header .header-content ul li:last-child {
   margin-left: 15px;
   top: 10px;
 }
-/* line 138, ../sass/screen.sass */
+/* line 132, ../sass/screen.sass */
 #container .posts article .meta time {
   position: absolute;
   text-align: right;
@@ -257,7 +249,7 @@ header .header-content ul li:last-child {
   top: 10px;
   margin-left: -66px;
 }
-/* line 145, ../sass/screen.sass */
+/* line 139, ../sass/screen.sass */
 #container .posts article blockquote {
   margin-left: 10px;
   padding: 10px 0 10px 20px;
@@ -268,12 +260,12 @@ header .header-content ul li:last-child {
   text-align: left;
 }
 @media screen and (max-width: 1000px) {
-  /* line 145, ../sass/screen.sass */
+  /* line 139, ../sass/screen.sass */
   #container .posts article blockquote {
     margin-left: 0;
   }
 }
-/* line 155, ../sass/screen.sass */
+/* line 149, ../sass/screen.sass */
 #container .posts article blockquote p.quote {
   font-family: "Meta Serif Pro", "Georgia", serif;
   font-size: 24px;
@@ -281,40 +273,88 @@ header .header-content ul li:last-child {
   font-weight: 700;
   padding-bottom: 20px;
 }
-/* line 162, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 #container .posts article blockquote span {
   font-family: "Meta Serif Pro", "Georgia", serif;
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
 }
-/* line 167, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 #container .posts article blockquote .source {
   color: #989ea7;
   font-family: "Meta Serif Pro", "Georgia", serif;
   font-size: 20px;
   margin-left: 6px;
 }
-/* line 172, ../sass/screen.sass */
+/* line 166, ../sass/screen.sass */
 #container .posts article blockquote .source:before {
   content: "(";
 }
-/* line 174, ../sass/screen.sass */
+/* line 168, ../sass/screen.sass */
 #container .posts article blockquote .source:after {
   content: ")";
 }
 
-/* line 178, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
 .photo-post .tag {
   color: #f0c330;
 }
+/* line 174, ../sass/screen.sass */
+.photo-post .photo-cross {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  margin-left: -9px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+  /* line 174, ../sass/screen.sass */
+  .photo-post .photo-cross {
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+  }
+}
 
-/* line 181, ../sass/screen.sass */
+/* line 185, ../sass/screen.sass */
 .quote-post .tag {
   color: #31c3a6;
 }
+/* line 187, ../sass/screen.sass */
+.quote-post .quote-cross {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  margin-left: -9px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+  /* line 187, ../sass/screen.sass */
+  .quote-post .quote-cross {
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+  }
+}
 
-/* line 184, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
 .work-post .tag {
   color: #ce7c7d;
+}
+/* line 200, ../sass/screen.sass */
+.work-post .work-cross {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  margin-left: -9px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+  /* line 200, ../sass/screen.sass */
+  .work-post .work-cross {
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+  }
 }
