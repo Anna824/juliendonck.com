@@ -10,13 +10,10 @@ $(document).ready(function() {
     scroll_pos = $(this).scrollTop();
     if(scroll_pos > 380) {
 
-      $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-dark@2x.png");
-      $('p.top').css('color','#00A3CC');
+      $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       $('a.hover').hover(function() {
-        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
         $('p.top').css('visibility', 'visible');
       }, function() {
-        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-dark@2x.png");
         $('p.top').css('visibility', 'hidden');
       });
 
