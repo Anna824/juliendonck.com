@@ -310,7 +310,7 @@ header .header-content ul li:last-child {
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
   /* line 174, ../sass/screen.sass */
   .photo-post .photo-cross {
-    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
     background-size: 18px 18px;
     height: 18px;
     width: 18px;
@@ -331,7 +331,7 @@ header .header-content ul li:last-child {
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
   /* line 187, ../sass/screen.sass */
   .quote-post .quote-cross {
-    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
     background-size: 18px 18px;
     height: 18px;
     width: 18px;
