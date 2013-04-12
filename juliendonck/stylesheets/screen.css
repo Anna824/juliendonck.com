@@ -267,42 +267,41 @@ header .header-content ul li:last-child {
 }
 /* line 149, ../sass/screen.sass */
 #container .posts article blockquote p.quote {
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 /* line 155, ../sass/screen.sass */
 #container .posts article blockquote span {
   font-size: 24px;
-  line-height: 34px;
   font-weight: 500;
 }
-/* line 159, ../sass/screen.sass */
+/* line 158, ../sass/screen.sass */
 #container .posts article blockquote .source {
   color: #989ea7;
   font-size: 16px;
   margin-left: 5px;
   text-decoration: none;
 }
-/* line 164, ../sass/screen.sass */
+/* line 163, ../sass/screen.sass */
 #container .posts article blockquote .source:hover {
   text-decoration: underline;
 }
-/* line 166, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 #container .posts article blockquote .source:before {
   content: "(";
 }
-/* line 168, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 #container .posts article blockquote .source:after {
   content: ")";
 }
 
-/* line 172, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .photo-post .tag {
   color: #f0c330;
 }
-/* line 174, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 .photo-post .photo-cross {
   position: absolute;
   top: 10px;
@@ -310,7 +309,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 174, ../sass/screen.sass */
+  /* line 173, ../sass/screen.sass */
   .photo-post .photo-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -319,11 +318,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 185, ../sass/screen.sass */
+/* line 184, ../sass/screen.sass */
 .quote-post .tag {
   color: #31c3a6;
 }
-/* line 187, ../sass/screen.sass */
+/* line 186, ../sass/screen.sass */
 .quote-post .quote-cross {
   position: absolute;
   top: 10px;
@@ -331,7 +330,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 187, ../sass/screen.sass */
+  /* line 186, ../sass/screen.sass */
   .quote-post .quote-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -340,11 +339,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 198, ../sass/screen.sass */
+/* line 197, ../sass/screen.sass */
 .work-post .tag {
   color: #ce7c7d;
 }
-/* line 200, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 .work-post .work-cross {
   position: absolute;
   top: 10px;
@@ -352,7 +351,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 200, ../sass/screen.sass */
+  /* line 199, ../sass/screen.sass */
   .work-post .work-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
     background-size: 18px 18px;
