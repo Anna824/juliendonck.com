@@ -72,6 +72,17 @@ $(document).ready(function() {
     $("header").css('background-color', '#00A3CC');
     $(".instagram img").css({ opacity: 1 });
   });
+
+  $("a.source").each(function(i, value) {
+   var $link = jQuery(value);
+   var text = $link.text();
+
+   if(text.length > 25) {
+      $link.text(text.substring(0, 21) + "...");
+   }
+  });
+
+
 });
 
 
