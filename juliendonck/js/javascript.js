@@ -31,45 +31,43 @@ $(document).ready(function() {
   });
 
 
-
-
   $('a.twitter').hover(function() {
-    $("header").css('background-color', 'rgb(0,171,240)');
+    $("header").animate({backgroundColor: 'rgb(0,171,240)'},300);
     $(".twitter img").css({ opacity: 0.9 });
   }, function() {
-    $("header").css('background-color', '#00A3CC');
+    $("header").animate({backgroundColor: '#00A3CC'},300);
     $(".twitter img").css({ opacity: 1 });
   });
 
   $('a.vimeo').hover(function() {
-    $("header").css('background-color', 'rgb(27,182,236)');
+    $("header").animate({backgroundColor: 'rgb(27,182,236)'},300);
     $(".vimeo img").css({ opacity: 0.9 });
   }, function() {
-    $("header").css('background-color', '#00A3CC');
+    $("header").animate({backgroundColor: '#00A3CC'},300);
     $(".vimeo img").css({ opacity: 1 });
   });
 
   $('a.dribbble').hover(function() {
-    $("header").css('background-color', 'rgb(226,81,137)');
+    $("header").animate({backgroundColor: 'rgb(226,81,137)'},300);
     $(".dribbble img").css({ opacity: 0.9 });
   }, function() {
-    $("header").css('background-color', '#00A3CC');
+    $("header").animate({backgroundColor: '#00A3CC'},300);
     $(".dribbble img").css({ opacity: 1 });
   });
 
   $('a.tumblr').hover(function() {
-    $("header").css('background-color', 'rgb(58,88,118)');
+    $("header").animate({backgroundColor: 'rgb(58,88,118)'},300);
     $(".tumblr img").css({ opacity: 0.9 });
   }, function() {
-    $("header").css('background-color', '#00A3CC');
+    $("header").animate({backgroundColor: '#00A3CC'},300);
     $(".tumblr img").css({ opacity: 1 });
   });
 
   $('a.instagram').hover(function() {
-    $("header").css('background-color', 'rgb(81,127,164)');
+    $("header").animate({backgroundColor: '#517FA4'},300);
     $(".instagram img").css({ opacity: 0.9 });
   }, function() {
-    $("header").css('background-color', '#00A3CC');
+    $("header").animate({backgroundColor: '#00A3CC'},300);
     $(".instagram img").css({ opacity: 1 });
   });
 
