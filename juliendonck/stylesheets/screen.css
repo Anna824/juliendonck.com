@@ -268,9 +268,9 @@ header .header-content ul li:last-child {
 /* line 149, ../sass/screen.sass */
 #container .posts article blockquote p.quote {
   font-size: 28px;
-  line-height: 36px;
+  line-height: 38px;
   font-weight: 700;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 /* line 155, ../sass/screen.sass */
 #container .posts article blockquote span {
