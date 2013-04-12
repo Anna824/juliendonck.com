@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+/* CHANGE CROSS TO ARROW ON SCROLL */
+
   $('.scrollup').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 400);
     return false;
@@ -13,6 +16,7 @@ $(document).ready(function() {
       $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       $('a.hover').hover(function() {
         $('p.top').css('visibility', 'visible');
+        /*$('p.top').css({opacity: 0, visibility: "visible"}).animate({opacity: 1.0}, 300);*/
         $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
       }, function() {
         $('p.top').css('visibility', 'hidden');
@@ -30,6 +34,8 @@ $(document).ready(function() {
     }
   });
 
+
+/* CHANGE HEADER BACKGROUND ON HOVER SOCIAL LINKS */
 
   $('a.twitter').hover(function() {
     $("header").animate({backgroundColor: 'rgb(0,171,240)'},200);
@@ -70,6 +76,9 @@ $(document).ready(function() {
     $("header").animate({backgroundColor: '#00A3CC'},200);
     $(".instagram img").css({ opacity: 1 });
   });
+
+
+/* TRUNCHATE LINKS TO 21 CHARACTERS */
 
   $("a.source").each(function(i, value) {
    var $link = jQuery(value);
