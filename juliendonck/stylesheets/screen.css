@@ -308,7 +308,7 @@ header .header-content ul li:last-child {
 /* line 177, ../sass/screen.sass */
 .photo-post .photo-cross {
   position: absolute;
-  top: 9px;
+  top: 11px;
   left: 50%;
   margin-left: -9px;
   background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
@@ -333,7 +333,7 @@ header .header-content ul li:last-child {
 /* line 194, ../sass/screen.sass */
 .quote-post .quote-cross {
   position: absolute;
-  top: 9px;
+  top: 11px;
   left: 50%;
   margin-left: -9px;
   background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
@@ -358,7 +358,7 @@ header .header-content ul li:last-child {
 /* line 211, ../sass/screen.sass */
 .work-post .work-cross {
   position: absolute;
-  top: 9px;
+  top: 11px;
   left: 50%;
   margin-left: -9px;
   background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
