@@ -246,7 +246,7 @@ header .header-content ul li:last-child {
   text-align: right;
   left: 50%;
   top: 10px;
-  margin-left: -66px;
+  margin-left: -65px;
 }
 /* line 138, ../sass/screen.sass */
 #container .posts article blockquote {
@@ -307,6 +307,10 @@ header .header-content ul li:last-child {
   top: 10px;
   left: 50%;
   margin-left: -9px;
+  background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
+  background-size: 18px 18px;
+  height: 18px;
+  width: 18px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
   /* line 173, ../sass/screen.sass */
@@ -318,11 +322,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 184, ../sass/screen.sass */
+/* line 188, ../sass/screen.sass */
 .quote-post .tag {
   color: #31c3a6;
 }
-/* line 186, ../sass/screen.sass */
+/* line 190, ../sass/screen.sass */
 .quote-post .quote-cross {
   position: absolute;
   top: 10px;
@@ -330,7 +334,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 186, ../sass/screen.sass */
+  /* line 190, ../sass/screen.sass */
   .quote-post .quote-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -339,11 +343,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 197, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .work-post .tag {
   color: #ce7c7d;
 }
-/* line 199, ../sass/screen.sass */
+/* line 203, ../sass/screen.sass */
 .work-post .work-cross {
   position: absolute;
   top: 10px;
@@ -351,7 +355,7 @@ header .header-content ul li:last-child {
   margin-left: -9px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 199, ../sass/screen.sass */
+  /* line 203, ../sass/screen.sass */
   .work-post .work-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
     background-size: 18px 18px;
