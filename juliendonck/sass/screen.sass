@@ -11,6 +11,8 @@ $break-large: 1000px
 
 body
   font-family: "adelle","Helvetica", sans-serif
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
   font-size: 14px
   line-height: 18px
   margin: 0px
@@ -56,7 +58,7 @@ header
       line-height: 32px
       margin: 40px auto 54px auto
       width: 100%
-      font-weight: 100
+      font-weight: 500
       @media screen and (max-width: $break-medium)
         margin: 45px auto
       a
@@ -113,6 +115,7 @@ header
         padding-top: 8px
         max-width: 460px
         margin: 0 auto
+        font-weight: 500
         a
           color: #00A3CC
           font-style: italic
@@ -155,6 +158,7 @@ header
         span
           font-size: 24px
           font-weight: 500
+          color: #31C3A6
         .source
           color: #989EA7
           font-size: 16px
@@ -172,7 +176,7 @@ header
     color: #F0C330
   .photo-cross
     position: absolute
-    top: 10px
+    top: 9px
     left: 50%
     margin-left: -9px
     background: url('https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png') no-repeat
@@ -189,9 +193,13 @@ header
     color: #31C3A6
   .quote-cross
     position: absolute
-    top: 10px
+    top: 9px
     left: 50%
     margin-left: -9px
+    background: url('https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png') no-repeat
+    background-size: 18px 18px
+    height: 18px
+    width: 18px
     @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2)
       background: url('https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png') no-repeat
       background-size: 18px 18px
@@ -202,9 +210,13 @@ header
     color: #CE7C7D
   .work-cross
     position: absolute
-    top: 10px
+    top: 9px
     left: 50%
     margin-left: -9px
+    background: url('https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png') no-repeat
+    background-size: 18px 18px
+    height: 18px
+    width: 18px
     @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2)
       background: url('https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png') no-repeat
       background-size: 18px 18px
