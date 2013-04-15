@@ -8,29 +8,23 @@ $(document).ready(function() {
     return false;
   });
 
-  var scroll_pos = 0;
-  $(document).scroll(function() {
-    scroll_pos = $(this).scrollTop();
-    if(scroll_pos > 380) {
-
+  $('a.hover').hover(function() {
+    if($(document).scrollTop() > 380) {
+      $('p.top').animate({opacity: 1.0}, 300);
       $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
-      $('a.hover').hover(function() {
-        $('p.top').css('visibility', 'visible');
-        /*$('p.top').css({opacity: 0, visibility: "visible"}).animate({opacity: 1.0}, 300);*/
-        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
-      }, function() {
-        $('p.top').css('visibility', 'hidden');
-        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
-      });
+    }
+  }, function() {
+    if($(document).scrollTop() > 380) {
+      $('p.top').animate({opacity: 0}, 300);
+      $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
+    }
+  });
 
+  $(document).scroll(function() {
+    if($(this).scrollTop() > 380) {
+      $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
     } else {
-
       $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-light@2x.png");
-      $('a.hover').hover(function() {
-        $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-light@2x.png");
-        $('p.top').css('visibility', 'hidden');
-      });
-
     }
   });
 
