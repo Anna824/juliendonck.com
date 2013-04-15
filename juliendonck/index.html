@@ -121,6 +121,39 @@
           </article>
         {/block:Photoset}
 
+        {block:Text}
+          <article class="thought-post">
+            <section class="text">
+              {block:Title}
+                <h6>{Title}</h6>
+              {/block:Title}
+              {Body}
+              <!--
+              <p>
+                Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac
+                cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                justo sit amet risus.
+              </p>
+              <p class="text-quote">
+                Nulla vitae elit libero, a pharetra augue.
+              </p>
+              <p>
+                Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac
+                cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                justo sit amet risus.
+              </p>
+              -->
+            </section>
+            <div class="meta">
+              <time>{DayOfMonthWithZero}/{MonthNumberWithZero}/{ShortYear}</time>
+              <span class="tag-cross {TagsAsClasses}-cross"></span>
+              {block:Tags}
+                <p class="tag">{Tag}</p>
+              {/block:Tags}
+            </div>
+          </article>
+        {/block:Text}
+
       {/block:Posts}
     </div>
   </div>

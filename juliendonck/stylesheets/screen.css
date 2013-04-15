@@ -301,11 +301,11 @@ header .header-content ul li:last-child {
   content: ")";
 }
 
-/* line 175, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
 .photo-post .tag {
   color: #f0c330;
 }
-/* line 177, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .photo-post .photo-cross {
   position: absolute;
   top: 11px;
@@ -317,7 +317,7 @@ header .header-content ul li:last-child {
   width: 18px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 177, ../sass/screen.sass */
+  /* line 179, ../sass/screen.sass */
   .photo-post .photo-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-yellow@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -326,11 +326,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 192, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 .quote-post .tag {
   color: #31c3a6;
 }
-/* line 194, ../sass/screen.sass */
+/* line 196, ../sass/screen.sass */
 .quote-post .quote-cross {
   position: absolute;
   top: 11px;
@@ -342,7 +342,7 @@ header .header-content ul li:last-child {
   width: 18px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 194, ../sass/screen.sass */
+  /* line 196, ../sass/screen.sass */
   .quote-post .quote-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-green@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -351,11 +351,11 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 209, ../sass/screen.sass */
+/* line 211, ../sass/screen.sass */
 .work-post .tag {
   color: #ce7c7d;
 }
-/* line 211, ../sass/screen.sass */
+/* line 213, ../sass/screen.sass */
 .work-post .work-cross {
   position: absolute;
   top: 11px;
@@ -367,7 +367,7 @@ header .header-content ul li:last-child {
   width: 18px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 211, ../sass/screen.sass */
+  /* line 213, ../sass/screen.sass */
   .work-post .work-cross {
     background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
     background-size: 18px 18px;
@@ -376,27 +376,57 @@ header .header-content ul li:last-child {
   }
 }
 
-/* line 227, ../sass/screen.sass */
-.thought-post .tag {
-  color: #ce7c7d;
-}
 /* line 229, ../sass/screen.sass */
+.thought-post .tag {
+  color: #2d8097;
+}
+/* line 231, ../sass/screen.sass */
 .thought-post .thought-cross {
   position: absolute;
   top: 11px;
   left: 50%;
   margin-left: -9px;
-  background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+  background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-darkblue@2x.png") no-repeat;
   background-size: 18px 18px;
   height: 18px;
   width: 18px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  /* line 229, ../sass/screen.sass */
+  /* line 231, ../sass/screen.sass */
   .thought-post .thought-cross {
-    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-red@2x.png") no-repeat;
+    background: url("https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/cross-darkblue@2x.png") no-repeat;
     background-size: 18px 18px;
     height: 18px;
     width: 18px;
   }
+}
+/* line 246, ../sass/screen.sass */
+.thought-post .text {
+  font-family: "ff-meta-serif-web-pro", "Meta Serif Pro", "Georgia", serif;
+  max-width: 940px;
+  width: 90%;
+  text-align: left;
+  margin-left: 10px;
+}
+/* line 253, ../sass/screen.sass */
+.thought-post .text h6 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+/* line 258, ../sass/screen.sass */
+.thought-post .text p {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+/* line 263, ../sass/screen.sass */
+.thought-post .text p.text-quote {
+  padding: 10px 0 10px 20px;
+  border-left: 8px solid #31c3a6;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-style: italic;
 }
