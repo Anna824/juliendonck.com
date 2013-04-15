@@ -14,8 +14,12 @@ $(document).ready(function() {
       $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
     }
   }, function() {
-    $('p.top').animate({opacity: 0}, 300);
-    $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
+    if($(document).scrollTop() > 380) {
+      $('p.top').animate({opacity: 0}, 300);
+      $('img.cross').attr("src","https://raw.github.com/juliendonck/juliendonck.com/master/juliendonck/img/arrow-dark@2x.png");
+    } else {
+      $('p.top').animate({opacity: 0}, 300);
+    }
   });
 
   $(document).scroll(function() {
